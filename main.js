@@ -100,6 +100,10 @@ function addProductsToWebpage() {
     }
 }
 
+document.getElementById("myButton").onclick = function () {
+location.href = "www.yoursite.com";
+};
+
 function addProductsToCart(productToAdd) {
 
     //localStorage.setItem("ShoppingCart", JSON.stringify(productToAdd));

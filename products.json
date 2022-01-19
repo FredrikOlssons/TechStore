@@ -19,5 +19,25 @@
         "description": "Super nice and beautiful smartphone from LG.",
         "image": "LGV30.png",
         "price": 7495
+    },{
+        "title": "Samsung Galaxy S20 5G",
+        "description": "Powerfull 64 MP camera & 30x zoom",
+        "image": "./assets/galaxy-s20-5G.png",
+        "price": 10995
+    },{
+        "title": "Huawei P40 Pro",
+        "description": "Sleek smartphone from One Plus.",
+        "image": "./assets/huawei-p40.png",
+        "price": 8995
+    },{
+        "title": "Sony Xperia II 5G",
+        "description": "The latest technology and 5G connectivity.",
+        "image": "./assets/sony-experia-5g.png",
+        "price": 13495
+    },{
+        "title": "Samsung Galaxy Z Flip",
+        "description": "Innovative shape and foldable screen",
+        "image": "./assets/samsung-galaxy-z-flip.png",
+        "price": 13495
     }
 ]
