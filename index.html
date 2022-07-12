@@ -1,43 +1,42 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
 
 <head>
     <title>TechStore</title>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Zen+Antique&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Zen+Antique&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
 
     <script src="./main.js"></script>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body onload="initSite()">
-    <header>
+    <header id="Header">
         <!-- Your header title and shopping cart button goes here  -->
-        <div id="Header">
-            <div id="HeaderText">
-                <h1 id="TitleHeader"><a href="./index.html">TechStore</a></h1>
-            </div>
-            <div id="Mellan"></div>
-            <div id="rightHeader">
-                
-                    <button id="Cart"><a href="./ShoppingCart.html">
-                            &nbsp<span>0</span> <i class="fas fa-shopping-cart"></i></a></button>
-                
-                
+
+        <div id="HeaderText">
+            <h1 class="headerTitleH1">
+                <a id="TitleHeader" href="./index.html">TechStore</a>
+            </h1>
+
+            <div id="cartSectionHeader">
+                <button id="cart">
+                    <a id="headerCart" href="./ShoppingCart.html"><span id="cartNumber">0</span><i
+                            class="fas fa-shopping-cart"></i></a>
+                </button>
             </div>
         </div>
     </header>
 
-    <main>
-      
-    </main>
-
+    <main id="main"></main>
 
     <footer>
         <div class="namebox"></div>
